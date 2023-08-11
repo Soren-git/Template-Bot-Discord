@@ -1,0 +1,12 @@
+{
+  "Bot": {
+    "System": {
+      "Token": "<VOTRE_JETON_DE_BOT>",
+      "Prefix": "<VOTRE_PRÉFIXE>",
+      "PrefixAdmin": "<VOTRE_PRÉFIXE_ADMIN>"
+    },
+    "Other": {
+      "DeveloperId": "<VOTRE_ID_DE_DÉVELOPPEUR>"
+    }
+  }
+}
