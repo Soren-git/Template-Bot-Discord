@@ -17,6 +17,8 @@ Bienvenue dans la Base de Bot Discord ! Il s'agit d'une base complète pour cré
    - <VOTRE_ID_DE_DÉVELOPPEUR> : Remplacez par votre ID utilisateur Discord.
 4. Démarrez le bot en exécutant `node index.js` dans le répertoire du projet.
 
+Si vous avez une erreur à propos d'un fonction veuillez supprimer la SlashCommands par défaut.
+
 **Version Anglaise**
 Si vous préférez utiliser la base en anglais, une version anglaise est disponible. Pour l'obtenir, il vous suffit de me contacter sur Discord (soren_tech).
 
