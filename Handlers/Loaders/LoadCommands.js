@@ -23,4 +23,8 @@ module.exports = async (Bot) => {
           " a été chargée avec succès."
       );
     });
+    await console.log(
+      "[COMMANDES(SIMPLE)]".bold.yellow +
+        " Les Simples Commandes ont été chargées avec succès."
+    );
 };

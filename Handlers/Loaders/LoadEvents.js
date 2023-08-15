@@ -13,4 +13,8 @@ module.exports = async (Bot) => {
           ` L'événement ${file.bold.green} a été chargé avec succès.`
       );
     });
+    await console.log(
+      "[Événements]".bold.magenta +
+        " Les Événements ont été chargées avec succès."
+    );
 };
