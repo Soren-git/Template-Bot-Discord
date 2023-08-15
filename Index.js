@@ -11,6 +11,7 @@ const LoadAdminCommands = require("./Handlers/Loaders/LoadAdminCommands.js"); //
 Bot.Commands = new Discord.Collection(); // Commandes régulières du bot
 Bot.SlashCommands = new Discord.Collection(); // Commandes slash
 Bot.AdminCommands = new Discord.Collection(); // Commandes d'administration
+Bot.AllCommands = new Discord.Collection(); // Commandes
 
 // Se connecter au bot en utilisant le jeton du fichier de configuration
 Bot.login(Config.Bot.System.Token)
