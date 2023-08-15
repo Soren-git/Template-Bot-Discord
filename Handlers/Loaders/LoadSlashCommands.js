@@ -18,6 +18,7 @@ module.exports = async (Bot) => {
             " n'a pas de nom."
         );
       Bot.SlashCommands.set(Command.name, Command);
+      Bot.AllCommands.set(Command.name, Command);
       console.log(
         "[COMMANDES(SLASH)]".bold.red +
           " La commande " +

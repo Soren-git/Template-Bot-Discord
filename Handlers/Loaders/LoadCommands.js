@@ -16,6 +16,7 @@ module.exports = async (Bot) => {
             " n'a pas de nom."
         );
       Bot.Commands.set(Command.name, Command);
+      Bot.AllCommands.set(Command.name, Command);
       console.log(
         "[COMMANDES(SIMPLE)]".bold.yellow +
           " La commande " +
