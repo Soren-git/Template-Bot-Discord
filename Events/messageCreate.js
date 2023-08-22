@@ -18,7 +18,7 @@ module.exports = async (Bot, message) => {
       if (err.code === "MODULE_NOT_FOUND") {
         message.reply("Cette commande n'existe pas !");
         console.log(err);
-        throw err;
+        return;
       }
     }
     Command.run(Bot, message, Args); // Exécuter la fonction run de la commande
@@ -33,7 +33,7 @@ module.exports = async (Bot, message) => {
       if (err.code === "MODULE_NOT_FOUND") {
         message.reply("Cette commande n'existe pas !");
         console.log(err);
-        throw err;
+        return;
       }
     }
     AdminCommand.run(Bot, message, Args); // Exécuter la fonction run de la commande admin
