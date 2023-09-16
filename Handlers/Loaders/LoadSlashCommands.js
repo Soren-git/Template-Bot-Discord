@@ -46,7 +46,7 @@ module.exports = async (Bot) => {
             command.options[i].type.slice(0, 1).toUpperCase() +
             command.options[i].type.slice(1, command.options[i].type.length)
           }Option`
-        ](async (option) =>
+        ]((option) =>
           option
             .setName(command.options[i].name)
             .setDescription(command.options[i].description)
